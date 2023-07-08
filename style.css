@@ -1,0 +1,38 @@
+element.style {
+}
+.container h1{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.quote footer {
+    font-size: 0.6em;
+    font-weight: 700;
+    color: #d3d3cf;
+    text-align: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+footer {
+    display: block;
+}
+.quote {
+    position: relative;
+    font-size: 20px;
+    line-height: 1.7em;
+    word-break: break-word;
+}
+body {
+    font-family: 'Sanchez', serif;
+    font-size: 12px;
+    background: #040E27;
+    color: #fff;
+    margin: 0 20px;
+}
+.quote footer:before {
+    content: '\2015';
+}
